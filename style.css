@@ -1,0 +1,84 @@
+body{
+    margin: 0px;
+    font-family: 'Otomanopee One', sans-serif;
+}
+.logo{
+    margin-left: 130px;
+    margin-top: 140px;
+}
+.section1{
+    display: flex;
+    background-color: thistle;
+    
+}
+.lefttext{
+    width: 35%;
+}
+.image{
+    width:100px;
+    margin-top: 200px;
+    display: flex;
+    
+    
+}
+.image img{
+    margin-bottom: 30px;
+    margin-left: 40px;
+    width: 300px;
+    height: 500px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 20px black;
+}
+
+.text{
+    margin-top: 100px;
+    margin-left: 130px;
+
+}
+.list ul li{
+    margin-top: 10px;
+    list-style: none;
+    padding-bottom: 20px;
+    
+
+    
+}
+.list ul li a{
+    text-decoration: none;
+    list-style: none;
+    margin-left: 130px;
+ 
+}
+.section2{
+    background-color: blanchedalmond;
+    
+}
+.section2 h1{
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    
+
+}
+.innerimage{
+    display: flex;
+    width: 300px;
+    height: 500px;
+
+}
+
+.innerimage img{
+    justify-content: center;
+    margin: 20px;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 5px 5px 30px black;
+
+}
+footer{
+    height: 60px;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 40px;
+}
