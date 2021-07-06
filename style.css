@@ -49,31 +49,31 @@ body{
     margin-left: 130px;
  
 }
-.section2{
-    background-color: blanchedalmond;
-    
-}
-.section2 h1{
-    text-align: center;
+.boxes{
+    background-color: white;
     padding: 20px;
-    margin: 10px;
-    
-
-}
-.innerimage{
     display: flex;
-    width: 300px;
-    height: 500px;
-
+    justify-content: space-evenly;
 }
-
-.innerimage img{
-    justify-content: center;
-    margin: 20px;
-    width: 100%;
+#middle{
+    height: 300px;
+}
+#middleimg{
+    height: 240px;
+}
+.card{
+    width: 300px;
+    padding:20px;
     border-radius: 10px;
-    box-shadow: 5px 5px 30px black;
-
+    box-sizing: border-box;
+    box-shadow: 1px 1px 5px black;
+}
+.cardtext{
+    text-transform: uppercase;
+    text-align: center;
+}
+.imgstyle{
+    width: 100%;
 }
 footer{
     height: 60px;
